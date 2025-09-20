@@ -1,3 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

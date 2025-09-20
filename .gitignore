@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# FAISS indices (or large binaries)
+*.faiss
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
